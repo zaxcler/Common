@@ -200,7 +200,7 @@ public class DragGridView extends GridView {
                 ViewGroup dragViewGroup = (ViewGroup) getChildAt(dragPosition
                         - getFirstVisiblePosition());
                 TextView dragTextView = (TextView) dragViewGroup
-                        .findViewById(R.id.text_item);
+                        .findViewById(R.id.text);
                 dragTextView.setSelected(true);
                 dragTextView.setEnabled(false);
                 itemHeight = dragViewGroup.getHeight();
