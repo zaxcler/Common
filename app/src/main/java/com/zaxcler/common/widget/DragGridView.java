@@ -374,7 +374,7 @@ public class DragGridView extends GridView {
                     if (holdPosition == dropPosition) {
                         LastAnimationID = moveAnimation.toString();
                     }
-                    moveAnimation.setAnimationListener(new AnimationListener() {
+                    moveAnimation.setAnimationListener(new Animation.AnimationListener() {
 
                         @Override
                         public void onAnimationStart(Animation animation) {
